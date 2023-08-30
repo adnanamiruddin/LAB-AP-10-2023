@@ -15,7 +15,7 @@ Kami ingin memastikan bahwa tata cara pengumpulan kode (commit) ke repositori in
 4. **Kloning Repositori**: Ketik perintah berikut untuk mengkloning repositori ke komputermu. Ganti `<repository-url>` dengan URL yang telah kamu salin.
 
 ```bash
-git clone https://github.com/adnanamiruddin/LAB-AP-10-2023.git
+  git clone <url-repositori-hasil-fork>
 ```
 
 5. **Buat Cabang Baru**: Masuk ke direktori repositori yang telah di-kloning. Lalu masuk ke folder sesuai NIM masing-masing.
