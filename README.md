@@ -18,29 +18,41 @@ Kami ingin memastikan bahwa tata cara pengumpulan kode (commit) ke repositori in
   git clone <url-repositori-hasil-fork>
 ```
 
-5. **Buat Cabang Baru**: Masuk ke direktori repositori yang telah di-kloning. Lalu masuk ke folder sesuai NIM masing-masing.
+5. **Buat Cabang (Branch) Baru**: Masuk ke direktori repositori yang telah di-kloning. Lalu buat cabang sesuai nim masing-masing.
 
 ```bash
 cd LAB-AP-10-2023
+git checkout -b H0712310-- # Sesuaikan dengan NIM masing-masing
+```
+
+6. **Masuk ke Folder**: Masuk ke directory/folder sesuai NIM.
+
+```bash
 cd H0712310-- # Sesuaikan dengan NIM masing-masing
 ```
 
-6. **Lakukan Perubahan**: Mulai mengedit atau menambahkan berkas sesuai dengan tugas yang diberikan.
+7. **Lakukan Perubahan**: Mulai mengedit atau menambahkan berkas (folder maupun file Python) sesuai dengan instruksi tugas yang diberikan.
 
-7. **Commit Perubahan**: Setelah selesai melakukan perubahan pada kode, lakukan commit dengan pesan yang deskriptif.
+8. **Tambahkan File Tugas**: Setelah selesai melakukan perubahan pada kode, tambahkan file tugas tersebut lalu.
 
 ```bash
 git add .
-git commit -m "Kumpul Tugas 2 (Conditional Statement)"  # Sesuaikan pesan dengan tugas yang kamu kumpulkan
 ```
 
-8. **Push ke GitHub**: Dorong (push) cabang baru yang telah kamu buat ke repositori GitHub.
+9. **Commit Perubahan**: Setelah semua tugas sudah ditambah, commit dengan pesan yang deskriptif.
 
 ```bash
-git push -u origin main
+git commit -m "Kumpul Tugas 2 (Conditional Statement)"  # Sesuaikan pesan dengan tugas yang kamu kumpulkan
+```
+Note: Untuk cek status file apakah sudah ditambahkan maupun dikomit, bisa dilakukan dengan `git status`
+
+10. **Push ke GitHub**: Dorong (push) cabang baru yang telah kamu buat ke repositori GitHub.
+
+```bash
+git push -u origin H0712310-- # Sesuaikan dengan NIM masing-masing
 ```
 
-9. **Buka Pull Request (PR)**: Di halaman repositori di akunmu, akan ada pemberitahuan untuk melakukan Pull Request. Klik tautan tersebut dan isi informasi yang diperlukan. Tim kami akan meninjau perubahanmu.
+11. **Buka Pull Request (PR)**: Di halaman repositori di akunmu, akan ada pemberitahuan untuk melakukan Pull Request. Klik tautan tersebut dan isi informasi yang diperlukan. Tim kami akan meninjau perubahanmu.
 
 ## Tips Tambahan
 
