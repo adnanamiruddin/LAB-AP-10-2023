@@ -19,7 +19,7 @@ while True:
 
             print(f"Selamat {waktu}\n{jam:02}:{menit:02}:{detik:02}")
         else :
-            print ('Angka tidak memnuhi atau lebih dari 360 derajat')
+            print ('Angka tidak memenuhi atau lebih dari 360 derajat')
     except ValueError:
         print('End of File')
         break
