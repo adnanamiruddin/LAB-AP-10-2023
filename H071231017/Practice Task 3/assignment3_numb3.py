@@ -11,7 +11,7 @@ while True:
             jam %= 24
         detik %= 3600
         menit = detik // 60 #detik
-        detik %= 60
+        detik %= 60  #kemudian disini dicari lagi sisa detik nya setelah didapatmi menitnya, caranya cukup dimodulokan dengan 60 untuk cari sisa nya
         if 6 <= jam < 10:
             print('Selamat Pagi')
         elif 10 <= jam < 15:
