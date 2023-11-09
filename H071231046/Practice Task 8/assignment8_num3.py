@@ -5,7 +5,7 @@ def is_valid_username(username):
     return re.search(pattern, username)
 
 def is_valid_email(email):
-    pattern = r'^[a-z]+(\d{2,})?@[a-z]+\.(com|co\.id)?$' #+ 1 atau lebih karakter
+    pattern = r'^[a-z]+(\d{2,})?@[a-z]+\.(com|co\.id)?$' # + 1 atau lebih karakter
     return re.search(pattern, email)
 
 def is_valid_password(password):
