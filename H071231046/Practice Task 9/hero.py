@@ -90,7 +90,7 @@ class Support(Hero):
         super().__init__(name, pos_x)
         self._health = 500
         self._armor = 8
-        self._speed = 4
+        self.speed = 4
 
     def special(self, target):
         self._speed = 6
