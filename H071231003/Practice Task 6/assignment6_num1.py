@@ -54,3 +54,20 @@ Alamat : {dictionary['alamat']}""")
         break
     else:
         print('Input tidak valid, masukan inputan yang ada')
+
+
+
+
+
+
+
+
+    print("Pilih menu:
+    * Detail Anda
+    * Ubah Nama
+    * Jumlah Data pada File
+    * Simpan Data pada File
+    * Buat Data Baru
+    * Keluar
+    
+    Pilih menu: "
